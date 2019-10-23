@@ -2,7 +2,7 @@ server:
   port: 7004
 spring:
   application:
-    name: helloworld
+    name: helloworld-service
 spring:
   rabbitmq:
     host: localhost
