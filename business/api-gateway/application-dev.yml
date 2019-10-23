@@ -2,8 +2,9 @@ server:
   port: 7003
 zuul:
   routes:
-    helloworld-service:
-      path: /v1/**
+    api-a:
+      path: /api-a/**
+      serviceId: helloworld-service
 eureka:
   client:
     service-url:
