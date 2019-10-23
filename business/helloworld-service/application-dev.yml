@@ -2,4 +2,4 @@ server:
   port: 7004
 spring:
   application:
-    name: helloworld
+    name: helloworld-service
