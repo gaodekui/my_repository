@@ -1,13 +1,9 @@
-spring:
-  application:
-    name: api-gateway
-  cloud:
-    config:
-      profile: dev
-      discovery:
-        enable: true
-        service-id: config-server
-    label: master
+server:
+  port: 7003
+zuul:
+  routes:
+    helloworld-service:
+      path: /v1/**
 eureka:
   client:
     service-url:
