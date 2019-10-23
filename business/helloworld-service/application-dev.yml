@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: helloworld
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: springcloud
