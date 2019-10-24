@@ -6,4 +6,4 @@ spring:
     port: 5672
     username: springcloud
     password: springcloud
-from: Hello-Word
+from: HelloWord
