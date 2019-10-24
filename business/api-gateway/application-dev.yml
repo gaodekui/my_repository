@@ -14,3 +14,4 @@ spring:
     port: 5672
     username: springcloud
     password: springcloud
+from: api-gateway
